@@ -86,7 +86,7 @@ window.addEventListener('DOMContentLoaded', async function(event) {
     <div class="movie-${movieId} text-center p-12">
     <img src="https://image.tmdb.org/t/p/w500/${movieImage}" class="mx-auto">
     <h1 class="text-2xl text-bold text-gray-50">${movieName}</h1>
-    <a hrer="#" class="done p=2 text-lg bg-green-400 text-white"> ✔️ watched </a>
+    <a hrer="#" class="done p=2 text-lg bg-green-400 text-white"> ✔️ Watched </a>
     </div>
     `)
    
