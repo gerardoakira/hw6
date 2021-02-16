@@ -83,10 +83,10 @@ window.addEventListener('DOMContentLoaded', async function(event) {
     let movieImage = movies[i].poster_path
     let movieName = movies[i].original_title
     document.querySelector('.movies').insertAdjacentHTML('beforeend', `
-    <div class="movie-${movieId} text-center p-12">
+    <div class="movie-${movieId} text-center w-1/5 p-4">
     <img src="https://image.tmdb.org/t/p/w500/${movieImage}" class="mx-auto">
     <h1 class="text-2xl text-bold text-gray-50">${movieName}</h1>
-    <a hrer="#" class="done p=2 text-lg bg-green-400 text-white"> ✔️ Watched </a>
+    <a href="#" class="done p=2 block text-lg text-white bg-green-500 mt-4 px-4 py-2 rounded"> ✔️ I've watched this! </a>
     </div>
     `)
    
